@@ -23,7 +23,7 @@ class SearchProductsOnAndroid(unittest.TestCase):
 
         self.driver.find_element_by_name('q').send_keys('Appium')
         self.driver.find_element_by_name('q').send_keys(Keys.RETURN)
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(10)
 
     def tearDown(self):
 
